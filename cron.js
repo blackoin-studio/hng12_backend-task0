@@ -19,7 +19,7 @@ const logger = winston.createLogger({
   ],
 });
 
-const backendUrl = "provide_backend_api_endpoint_that_is_provided_by_rendor";
+const backendUrl = "https://hng12-backend-task0-k8qq.onrender.com";
 
 // ping backend
 const pingBackend = () => {
